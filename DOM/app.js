@@ -3,9 +3,12 @@ document.addEventListener("DOMContentLoaded", function () {
     let btnText = document.createTextNode("Step1")
     btn1.appendChild(btnText)
     document.body.appendChild(btn1)
+    btn1.style.display= "inline"
     btn1.addEventListener('click', function () {
         alert("Happy B'Day to Me!")
     })
+    
+
 
     /* let btn2 = document.createElement('button')
      let btn2_Text = document.createTextNode('Step2')

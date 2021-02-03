@@ -52,4 +52,6 @@ let arrFriend = ['Zedrik', 'Jonecia', 'George',
      $('.list').append(items)
  }})
 
+ 
+
 })
